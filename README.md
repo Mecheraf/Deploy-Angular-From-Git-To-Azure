@@ -11,7 +11,7 @@ You can use docker args when you build your image instead, grab a Env Variable o
 
 # What to do
 - In Azure : Create a resource group.
-- In the Powershell : Put your GitHub ID and your GitHub Personal Access Token. You just need the access to clone the project so if you intended to work as a team, create a proper access token. 
+- In the Powershell : Put your GitHub ID and your GitHub Personal Access Token (PAT). You just need the access to clone the project so if you intended to work as a team, create a proper PAT. 
 - In the Powershell : Put your Angular App's github link in the $Githublink variable.
 - In the Powershell : If you want to, change all the variables with the nomenclature "$*Name". Except for $RGName which needs to be changed.
-- In the Dockerfile : Retrieve the Nginx and Node version needed for your project. 
+- In the Dockerfile : Retrieve the Nginx and Node images needed for your project. I do not recommend to use ":latest" for the Node image.
