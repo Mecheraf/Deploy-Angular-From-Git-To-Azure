@@ -1,4 +1,4 @@
-$GitHubID = "YouId" #For me, it was Mecheraf
+$GitHubID = "YouId" #For me, it is Mecheraf
 $GitHubToken = "YourPersonalAccessToken"
 
 #$AZusername = "YourAzureAccount"
