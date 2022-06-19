@@ -15,3 +15,5 @@ You can use docker args when you build your image instead, grab a Env Variable o
 - In the Powershell : Put your Angular App's github link in the $Githublink variable.
 - In the Powershell : If you want to, change all the variables with the nomenclature "$*Name". Except for $RGName which needs to be changed.
 - In the Dockerfile : Retrieve the Nginx and Node images needed for your project. I do not recommend to use ":latest" for the Node image.
+
+## Thanks [@SalimBrd](https://github.com/SalimBrd) for your help.
